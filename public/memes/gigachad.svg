@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#0F172A"/>
+  <rect x="30" y="30" width="740" height="540" rx="36" fill="url(#paint0_linear)"/>
+  <path d="M254 386C254 305.366 319.366 240 400 240C480.634 240 546 305.366 546 386V442H254V386Z" fill="#F8FAFC"/>
+  <circle cx="400" cy="180" r="92" fill="#F8FAFC"/>
+  <path d="M344 180C344 151.281 367.281 128 396 128H435C456.539 128 474 145.461 474 167V188C474 216.719 450.719 240 422 240H396C367.281 240 344 216.719 344 188V180Z" fill="#CBD5E1"/>
+  <rect x="252" y="452" width="296" height="64" rx="24" fill="#020617" fill-opacity="0.82"/>
+  <text x="400" y="492" fill="#F8FAFC" font-family="Arial" font-size="28" font-weight="700" text-anchor="middle">Gigachad Approval Flow</text>
+  <text x="400" y="534" fill="#FBBF24" font-family="Arial" font-size="22" text-anchor="middle">Aura-driven procurement</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="90" y1="80" x2="710" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+</svg>

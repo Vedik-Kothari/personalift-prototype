@@ -1,0 +1,111 @@
+{
+  "dataset_inventory": [
+    {
+      "dataset": "uvh26",
+      "enabled": true,
+      "local_path": "data\\raw\\uvh26",
+      "exists": false,
+      "classes": [
+        "car",
+        "motorcycle",
+        "auto_rickshaw",
+        "bus",
+        "truck",
+        "bicycle",
+        "pedestrian"
+      ],
+      "license_note": "Verify official use terms before redistribution.",
+      "country": "India",
+      "city": "Bengaluru"
+    },
+    {
+      "dataset": "driveindia",
+      "enabled": true,
+      "local_path": "data\\raw\\driveindia",
+      "exists": false,
+      "classes": [
+        "car",
+        "motorcycle",
+        "auto_rickshaw",
+        "bus",
+        "truck",
+        "bicycle",
+        "pedestrian",
+        "emergency_vehicle"
+      ],
+      "license_note": "Use only in accordance with the dataset paper and source license.",
+      "country": "India",
+      "city": null
+    },
+    {
+      "dataset": "dats2022",
+      "enabled": true,
+      "local_path": "data\\raw\\dats2022",
+      "exists": false,
+      "classes": [
+        "car",
+        "motorcycle",
+        "auto_rickshaw",
+        "bus",
+        "truck",
+        "bicycle",
+        "pedestrian"
+      ],
+      "license_note": "Use per source conditions.",
+      "country": "India",
+      "city": null
+    },
+    {
+      "dataset": "indian_road_dataset",
+      "enabled": true,
+      "local_path": "data\\raw\\indian_road_dataset",
+      "exists": false,
+      "classes": [
+        "car",
+        "motorcycle",
+        "auto_rickshaw",
+        "bus",
+        "truck",
+        "bicycle",
+        "pedestrian"
+      ],
+      "license_note": "Check dataset card for permitted academic usage.",
+      "country": "India",
+      "city": null
+    },
+    {
+      "dataset": "emergency_vehicle_support",
+      "enabled": false,
+      "local_path": "data\\raw\\emergency_support",
+      "exists": false,
+      "classes": [
+        "ambulance",
+        "fire_truck",
+        "police_vehicle"
+      ],
+      "license_note": "Optional support set for emergency-vehicle specialization.",
+      "country": "India",
+      "city": null
+    }
+  ],
+  "control_metrics": {},
+  "reasoner_training_plan": {
+    "model_name": "distilbert-base-uncased",
+    "max_length": 128,
+    "freeze_encoder_layers": 4,
+    "training_args": {
+      "output_dir": "artifacts/reasoner_checkpoints",
+      "num_train_epochs": 4,
+      "per_device_train_batch_size": 32,
+      "per_device_eval_batch_size": 32,
+      "learning_rate": 2e-05,
+      "evaluation_strategy": "epoch",
+      "save_strategy": "epoch",
+      "logging_steps": 25,
+      "load_best_model_at_end": true,
+      "metric_for_best_model": "f1_macro",
+      "greater_is_better": true,
+      "report_to": "none"
+    }
+  }
+}

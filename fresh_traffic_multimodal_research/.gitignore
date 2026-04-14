@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+artifacts/yolo/
+artifacts/reasoner_checkpoints/
+data/raw/
+data/processed/

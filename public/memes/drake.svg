@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#FFF7ED"/>
+  <rect x="40" y="50" width="720" height="220" rx="28" fill="#FECACA"/>
+  <rect x="40" y="330" width="720" height="220" rx="28" fill="#BBF7D0"/>
+  <circle cx="184" cy="160" r="78" fill="#FB923C"/>
+  <circle cx="184" cy="440" r="78" fill="#FB923C"/>
+  <path d="M130 144C160 118 200 116 232 140" stroke="#7C2D12" stroke-width="14" stroke-linecap="round"/>
+  <path d="M132 455C162 486 204 488 238 454" stroke="#7C2D12" stroke-width="14" stroke-linecap="round"/>
+  <text x="314" y="148" fill="#7F1D1D" font-family="Arial" font-size="34" font-weight="700">Actual productivity</text>
+  <text x="314" y="198" fill="#991B1B" font-family="Arial" font-size="28">No memes, no chaos, no fun</text>
+  <text x="314" y="430" fill="#14532D" font-family="Arial" font-size="34" font-weight="700">Drake Prioritization Matrix</text>
+  <text x="314" y="480" fill="#166534" font-family="Arial" font-size="28">Memes, overlays, and fake analytics</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#111827"/>
+  <rect x="30" y="30" width="740" height="540" rx="36" fill="#F8FAFC"/>
+  <path d="M208 254C236 176 324 126 422 126C530 126 616 198 616 292C616 396 504 458 358 458C246 458 180 408 180 344C180 316 192 282 208 254Z" fill="#E5E7EB" stroke="#0F172A" stroke-width="18"/>
+  <ellipse cx="320" cy="266" rx="34" ry="22" fill="#0F172A"/>
+  <ellipse cx="510" cy="272" rx="48" ry="28" fill="#0F172A"/>
+  <path d="M260 360C338 428 486 430 566 332" stroke="#0F172A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M210 184C280 138 382 138 474 162" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+  <rect x="208" y="460" width="384" height="64" rx="24" fill="#111827"/>
+  <text x="400" y="500" fill="#F8FAFC" font-family="Arial" font-size="28" font-weight="700" text-anchor="middle">Trollface Incident Response</text>
+</svg>

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #f7f3eb;
+  --foreground: #1f2937;
+  --panel: rgba(255, 251, 245, 0.84);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --line: rgba(97, 72, 28, 0.12);
+  --ink: #20150d;
+  --accent: #d97706;
+  --accent-soft: #fbbf24;
+  --sage: #2f6f5f;
+  --rose: #d96c6c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(217, 119, 6, 0.14), transparent 24%),
+    radial-gradient(circle at top right, rgba(47, 111, 95, 0.12), transparent 28%),
+    linear-gradient(180deg, #fff9f1 0%, #f7efe1 100%);
+  color: var(--foreground);
+  font-family:
+    "Instrument Sans",
+    "Manrope",
+    "Segoe UI",
+    "SF Pro Display",
+    "Helvetica Neue",
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(217, 119, 6, 0.18);
+  color: var(--ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(146, 115, 68, 0.38);
+}
+
+.glass-outline {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 24px 80px rgba(58, 37, 17, 0.12);
+}
